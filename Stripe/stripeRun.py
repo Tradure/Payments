@@ -3,7 +3,7 @@ stripe.api_key = "sk_test_"
 
 starter_subscription = stripe.Product.create(
   name="Starter Subscription",
-  description="$12/Month subscription",
+  description="$2/Month subscription",
 )
 
 starter_subscription_price = stripe.Price.create(
